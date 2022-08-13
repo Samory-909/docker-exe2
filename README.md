@@ -24,6 +24,6 @@ docker export tomcat.v1> mon_tomcat.tar
 
 cat mon_tomcat.tar | docker import - mytomcat:v1
 
-docker image tag  mytomcat:v1 20032/mytomcat9.0.10 
+docker image tag  mytomcat:v1 20032/mytomcat9.0.11
 
-docker push 20032/mytomcat9.0.10
+docker push 20032/mytomcat9.0.11
